@@ -1,0 +1,201 @@
+
+@font-face {
+    font-family: 'Poppins Extra Light';
+    src: url(../fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'Poppins Regular';
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins Semi Bold';
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+.attribution { 
+    font-size: .8rem; 
+    text-align: center;
+    margin: 2em auto;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root {
+    font-size: max(17px, 1.5vw);
+    --cyan-border: hsl(180, 62%, 55%);
+    --red-border: hsl(0, 78%, 62%);
+    --orange-border: hsl(34, 97%, 64%);
+    --blue-border: hsl(212, 86%, 64%);
+    --dark-blue-text: hsl(234, 12%, 34%);
+    --grayish-blue-text: hsl(229, 6%, 50%);
+    --light-gray: hsl(0, 0%, 98%);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1, h2 {
+    color:  var(--dark-blue-text);
+}
+p {
+    color: var(--grayish-blue-text);
+}
+body {
+    background-color: var(--light-gray);
+    font-family: 'Poppins Extra Light';
+}
+main {
+    padding: min(5em, 10vw) min(2em, 10vw) min(4em, 10vw);
+}
+main .intro-info {
+    width: min(100%, 500px);
+    margin: auto;
+    text-align: center;
+}
+main .intro-info .reliable-delivery {
+    font-size: 1.5rem;
+    font-family: 'Poppins Extra Light';
+    font-weight: lighter;
+}
+.intro-info .powered-tech {
+    font-size: 1.5rem;
+    font-family: 'Poppins Semi Bold';
+}
+.intro-info .ai-intro-info {
+    font-size: .93rem;
+    margin-top: .8rem;    
+}
+main .main-info {
+    width: min(100%, 1000px);
+    display: flex;
+    flex-direction: column;
+    margin: 3.5rem auto 0 auto;
+}
+.main-info .ai-info-section {
+    padding: min(1.7em, 8vw);
+    border-radius: .3em;
+    box-shadow: 0 1em 3em -1.8em hsl(229, 6%, 66%);
+}
+.main-info .ai-info-section h1 {
+    font-size: 1.2rem;
+    font-family: 'Poppins Semi Bold';
+}
+.main-info .ai-info-section p {
+    font-size: .8rem;
+    margin-top: .5em;
+}
+.main-info .ai-info-section img {
+    position: relative;
+    display: block;
+    width: 3.7rem;
+    object-fit: cover;
+    object-position: center;
+    margin: 2em 0 0 auto;
+}
+.main-info .supervisor {
+    border-top: .3em solid var(--cyan-border);
+}
+.main-info .team-builder {
+    border-top: .3em solid var(--red-border);
+}
+.main-info .karma {
+    border-top: .3em solid var(--orange-border);
+}
+.main-info .calculator {
+    border-top: .3em solid var(--blue-border);
+}
+.center-ai-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+/* Media Queries */
+@media screen and (min-width: 900px) {
+    main .main-info {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    main .main-info, main .center-ai-info {
+        gap: 1em;
+    }
+    .main-info .supervisor, .main-info .center-ai-info, .main-info .calculator {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    * {
+        word-break: break-all;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
