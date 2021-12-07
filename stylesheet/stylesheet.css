@@ -69,6 +69,7 @@ main .main-info {
     width: min(100%, 1000px);
     display: flex;
     flex-direction: column;
+    gap: 2em;
     margin: 3.5rem auto 0 auto;
 }
 .main-info .ai-info-section {
@@ -131,71 +132,5 @@ main .main-info {
         word-break: break-all;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
